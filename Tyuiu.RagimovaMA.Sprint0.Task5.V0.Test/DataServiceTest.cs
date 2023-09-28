@@ -1,10 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
+using Tyuiu.RagimovaMA.Sprint0.Task5.V0.Lib;
 
-using Tyuiu.RagimovaMA.Sprint0.Task4.V0.Lib;
-
-namespace Tyuiu.RagimovaMA.Sprint0.Task4.V0.Test
+namespace Tyuiu.RagimovaMA.Sprint0.Task5.V0.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -17,10 +16,10 @@ namespace Tyuiu.RagimovaMA.Sprint0.Task4.V0.Test
 
         public void CheckedSubtractionValid()
         {
-            Assert.AreEqual(5, DataService.Subtraction(10, 5));
+            Assert.AreEqual(5, DataService.Sustraction(10, 5));
         }
 
-        public void CheckedMultiplicationValid()
+        public void CheckedMultiplication()
         {
             Assert.AreEqual(50, DataService.Multiplication(10, 5));
         }
